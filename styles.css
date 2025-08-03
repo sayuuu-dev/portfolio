@@ -5,10 +5,14 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Abril Fatface';
     line-height: 1.6;
     color: #333;
     scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
 }
 
 /* Navigation */
@@ -20,6 +24,7 @@ body {
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
+    height: 80px;
 }
 
 .nav-container {
@@ -95,7 +100,7 @@ body {
     width: 100%;
 }
 
-.home-content {
+.home-content{
     flex: 1;
     max-width: 600px;
 }
@@ -127,6 +132,13 @@ body {
     color: #118AB2;
     font-weight: bold;
     transition: opacity 0.5s ease-in-out;
+}
+
+.rotating-text::after {
+    content: '|';
+    color: #118AB2;
+    font-weight: normal;
+    animation: blink 1s infinite;
 }
 
 .contact-btn {
@@ -209,7 +221,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    padding: 5rem 0;
+    padding: 8rem 0 5rem 0;
 }
 
 .about-container {
@@ -277,7 +289,7 @@ body {
 .skills {
     min-height: 100vh;
     background: #f8f9fa;
-    padding: 5rem 0;
+    padding:5rem 0;
 }
 
 .skills-container {
