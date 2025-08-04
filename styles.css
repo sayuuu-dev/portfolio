@@ -250,24 +250,24 @@ section {
 .about-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: white;
 }
 
 .about-content h3 {
     font-size: 1.8rem;
     margin-bottom: 2rem;
-    color: #333;
+    color: #118AB2;
 }
 
 .about-content p {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 2rem;
-    color: #333;
+    color: white;
 }
 
 .resume-btn {
-    background: #333;
+    background: rgba(255, 255, 255, 0.1);
     color: white;
     padding: 12px 30px;
     border: none;
@@ -301,7 +301,7 @@ section {
 .skills h2 {
     font-size: 3rem;
     margin-bottom: 3rem;
-    color: #333;
+    color: #118AB2;
 }
 
 .skills-grid {
