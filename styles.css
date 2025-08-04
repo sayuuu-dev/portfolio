@@ -216,12 +216,11 @@ section {
 
 /* About Section */
 .about {
-    min-height: 100vh;
-    background: #118AB2;
+    background: #333;
     color: white;
     display: flex;
     align-items: center;
-    padding: 8rem 0 5rem 0;
+    padding: 5rem 0;
 }
 
 .about-container {
@@ -288,7 +287,7 @@ section {
 /* Skills Section */
 .skills {
     min-height: 100vh;
-    background: #f8f9fa;
+    background: #333;
     padding:5rem 0;
 }
 
@@ -313,7 +312,7 @@ section {
 }
 
 .skill-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.1);
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -344,7 +343,7 @@ section {
 .skill-card h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: white;
 }
 
 .skill-bar {
@@ -418,8 +417,8 @@ section {
 /* Contact Section */
 .contact {
     min-height: 100vh;
-    background: linear-gradient(135deg, #118AB2 0%, #0D6986 100%);
-    color: white;
+    background: linear-gradient(135deg, #333);
+    color: #118AB2;
     padding: 5rem 0;
     display: flex;
     align-items: center;
@@ -435,14 +434,14 @@ section {
     font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
-    color: white;
+    color: #118AB2;
 }
 
 .contact-subtitle {
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 4rem;
-    color: rgba(255, 255, 255, 0.8);
+    color:#118AB2;
 }
 
 .contact-content {
