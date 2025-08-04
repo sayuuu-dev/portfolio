@@ -12,7 +12,7 @@ body {
 }
 
 section {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 60px;
 }
 
 /* Navigation */
@@ -221,6 +221,7 @@ section {
     display: flex;
     align-items: center;
     padding: 5rem 0;
+    scroll-margin-top: 100px;
 }
 
 .about-container {
