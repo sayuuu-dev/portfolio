@@ -80,8 +80,7 @@ section {
 /* Home Section */
 .home {
     height: 100vh;
-    background: linear-gradient(#333),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23111" width="1200" height="800"/><circle cx="400" cy="300" r="100" fill="%23333" opacity="0.3"/><circle cx="800" cy="500" r="150" fill="%23444" opacity="0.2"/></svg>');
+    background: linear-gradient(#333);
     background-size: cover;
     background-position: center;
     display: flex;
