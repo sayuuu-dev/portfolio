@@ -154,16 +154,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Add parallax effect to home section
-window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const homeSection = document.querySelector('.home');
-    
-    if (homeSection) {
-        homeSection.style.transform = `translateY(${scrolled * 0.5}px)`;
-    }
-});
-
 // Mobile menu toggle (for future mobile menu implementation)
 function toggleMobileMenu() {
     const navMenu = document.querySelector('.nav-menu');
