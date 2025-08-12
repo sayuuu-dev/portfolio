@@ -329,13 +329,13 @@ section {
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
 }
 
-.skill-card:hover {
+.skill-card.aos-animate:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(17, 138, 178, 0.2);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
 .skill-icon {
@@ -412,9 +412,10 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.projects-placeholder:hover{    
+.projects-placeholder.aos-animate:hover{    
     transform: translateY(-15px);
     box-shadow: 0 15px 30px rgba(17, 138, 178, 0.2);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
 .placeholder-icon {
@@ -488,9 +489,10 @@ section {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.contact-card:hover {
+.contact-card.aos-animate:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
 .contact-icon {
